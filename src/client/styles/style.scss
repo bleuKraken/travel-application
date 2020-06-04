@@ -1,0 +1,145 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  padding: 10px 20px;
+  background-color: rgb(36, 16, 128);
+  color: rgb(255, 255, 255);
+}
+
+.company {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.banner {
+  text-align: center;
+  padding: 20px 40px;
+  background-color: rgb(188, 207, 236);
+  color: rgb(0, 0, 0);
+}
+/* ################### Form Area ################### */
+.form {
+  border: 2px solid rgb(29, 91, 173);
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 500px;
+}
+
+.date-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 15px 40px;
+}
+
+.default-label {
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.country-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 30px 0 20px;
+}
+
+.submit-button {
+  width: 150px;
+  align-self: center;
+  margin: 5px 0;
+}
+/* ################### Weather Card ################### */
+.section-weather {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.weather-header {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.weather-card {
+  padding: 5px;
+  margin: 10px 3px;
+  border: 1px solid rgb(36, 16, 128);
+  width: 100px;
+  text-align: center;
+}
+
+.card-header {
+  font-weight: bold;
+  padding: 5px 0;
+  border-bottom: rgb(0, 0, 0);
+}
+
+.weather-description {
+  padding: 5px 0;
+  color: rgb(29, 91, 173);
+  font-weight: bold;
+}
+/* ################### Results ################### */
+.city-info {
+  width: 100%;
+  background-size: cover;
+}
+
+.section-trip-results {
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/21/23/29/fog-3622519_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+  height: 100%;
+}
+
+.results-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
+  min-height: 200px;
+  padding-top: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* ################### Universal Below ################### */
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.center {
+  text-align: center;
+}
+
+.row-dropdown {
+  margin: 0 20px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
