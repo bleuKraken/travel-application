@@ -27,7 +27,6 @@ from the offical page [node.js](https://nodejs.org/)
    > npm run start
 
 The app listens on port 4444, so visit http://localhost:4444 in a web browser to view.
-Or simple go into the "dist" folder and drag-and-drop the html file into a browser.
 
 
 ## Running developer 
