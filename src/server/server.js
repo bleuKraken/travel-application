@@ -13,7 +13,12 @@ app.use(bodyParser.json());
 
 // Cors for cross origin allowance
 app.use(cors());
-app.use(express.static('/dist'));
+app.use(express.static('dist'));
+
+// Setting location of home index
+app.get('/', function (req, res) {
+  res.sendFile('./dist/index.html')
+})
 
 // Setup Server WAS 8081
 const port = 4444;
@@ -23,6 +28,8 @@ function listening() {
   console.log("I'm Alive!");
   console.log(`running on localhost: ${port}`);
 };
+
+
 
 app.post('/weather', (req, res) => {
   console.log(req.body)
